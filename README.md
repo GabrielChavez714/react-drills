@@ -10,7 +10,7 @@ The solutions provided in this project are just one way you can accomplish the p
 
 Once you get to the point where you no longer have to look at the solutions and/or ask mentors for help, time yourself to see how long it takes you to complete all of these sets. After your first time, try to beat that time at least twice. The project is called React Drills for a reason! Repetition will help solidify these React concepts.
 
-Good Luck!
+Good Luck!ls
 
 ## Setup
 
@@ -20,6 +20,12 @@ To help speed up the process of moving from app to app we have provided a bunch 
   - You can either run `npm install` for each `app-#/` before starting app one or just remember to run `npm install` as you move from app to app
 
 You can then test your work for each app, as you develope a solution, by running `npm run start` from each `app-#/` folder.
+
+
+
+
+
+
 
 ## Set 1 - State, Class Methods, Capturing User Input, Mapping, Axios
 
@@ -70,6 +76,14 @@ export default App;
 
 <img src="https://github.com/DevMountain/react-drills/blob/assets/1g.gif" />
 
+
+
+
+
+
+
+
+
 ### App #2
 
 Create an app where there is an array of data on state that is then shown on the DOM as a list. The array of data can be as simple as an array of strings. The list can be as simple as a list of `<h2>` elements.
@@ -111,6 +125,17 @@ export default App;
 <br />
 
 <img src="https://github.com/DevMountain/react-drills/blob/assets/2.png" />
+
+
+
+
+
+
+
+
+
+
+
 
 ### App #3
 
@@ -167,6 +192,14 @@ export default App;
 <br />
 
 <img src="https://github.com/DevMountain/react-drills/blob/assets/3g.gif" />
+
+
+
+
+
+
+
+
 
 ## Set 2 - State, Class Methods, Capturing User Input, Props, Multiple Components
 
@@ -259,6 +292,15 @@ export default Login;
 
 <img src="https://github.com/DevMountain/react-drills/blob/assets/4g.gif" />
 
+
+
+
+
+
+
+
+
+
 ### App #5
 
 Create an `Image` component that renders an `<img />` element. The `src` for the `<img />` should be passed down as a prop from the parent component. You can use whatever image URL you would like to or you can get a placeholder from <a href="https://placeholder.com/">Click Me!</a>
@@ -314,6 +356,11 @@ export default class Image extends Component {
 <br />
 
 <img src="https://github.com/DevMountain/react-drills/blob/assets/5.png" />
+
+
+
+
+
 
 ### App #6
 
@@ -405,6 +452,15 @@ export default class ToDo extends Component {
 <br />
 
 <img src="https://github.com/DevMountain/react-drills/blob/assets/6-7g.gif" />
+
+
+
+
+
+
+
+
+
 
 ### App #7
 
@@ -509,7 +565,7 @@ import Todo from "./Todo";
 
 export default class List extends Component {
   render() {
-    let list = this.props.tasks.map((element, index) => {
+    let list = this.props.task.map((element, index) => {
       return <Todo key={index} task={element} />;
     });
     
@@ -542,9 +598,19 @@ export default class Todo extends Component {
 
 ## Set 3 - Axios ( hitting an API ), React Lifecycle Methods
 
+
+
+
+
+
+
+
+
+
+
 ### App #8
 
-Create an app hitting an API of your choice (swapi.co, birdapi.com, pokeapi, smurfs, marvel api, etc). The API should be hit as soon as the component is finished rendering. The app should set value(s) on state based on results from the API and then show the propertie(s) on state in the DOM.
+Create an app hitting API of your choice (swapi.co, birdapi.com, pokeapi, smurfs, marvel api, etc). The API should be hit as soon as the component is finished rendering. The app should set value(s) on state based on results from the API and then show the propertie(s) on state in the DOM.
 
 The `axios` package should be used to hit an API.
 
@@ -604,6 +670,16 @@ export default App;
 Complete the HTTP mini located at: <a href="https://github.com/DevMountain/http-mini">Click Me!</a>
 
 ## Set 4 - react-router-dom ( Routing ), Axios ( hitting an API )
+
+
+
+
+
+
+
+
+
+
 
 ### App #9
 
